@@ -104,3 +104,4 @@ class My(App):
 
 if __name__ == '__main__':
     My().run()
+    print("testsetsetset")
