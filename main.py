@@ -8,7 +8,7 @@ from kivy.core.image import Image as CoreImage
 from io import BytesIO
 import requests
 import random
-
+# test
 class My(App):
     def build(self):
         self.layout = BoxLayout(orientation='vertical')
