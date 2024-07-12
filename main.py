@@ -25,7 +25,7 @@ class StartScreen(Screen):
         )
         start_button.bind(on_release=self.start_game)
         
-        layout.add_widget(Label(text='Welcome to the Flag Quiz Game!', size_hint=(1, 0.2), halign='center', valign='middle'))
+        layout.add_widget(Label(font_size=18, text='Welcome to the Flag Quiz Game!', size_hint=(1, 0.2), halign='center', valign='middle'))
         layout.add_widget(start_button)
 
         self.add_widget(layout)
